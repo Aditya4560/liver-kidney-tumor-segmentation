@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.venv/
+venv/
+
+# Training outputs and checkpoints
+outputs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+
+# Dataset archives and extracted data
+archive.zip
+archive/
+volume_pt*/
+data/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
